@@ -2,28 +2,75 @@
 <html>  
     <head>  
         <meta charset="utf-8">  
-        <title>Hello, world!</title>  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Laoise Fitzpatrick</title> 
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/home/laoise/code/html/portfolio/stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/8f2d5e5371.js"></script>
     </head>  
     <body>  
-    	<header>
-    		<nav>
-    			
-    		</nav>
-    	</header>
+        <header>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#about">Laoise Fitzpatrick</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#about">About Me</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+        </header>
     	<main>
-    		<article>
-    			<section>
-    				<h1>Heading 1</h1>
-    				<p>A paragraph of text</p>
-    			</section>
-    			<section>
-    				<h1>Heading 2</h1>
-    				<p>A paragraph of text</p>
-    			</section>
-    		</article>
+			<div class="container">
+                
+                <section class="text-center" id="about">
+                    <h2>About</h2>
+                    <p>Some info about me.</p>
+                </section>
+
+                <section id="portfolio">
+                    <h2>Portfolio</h2>
+                    <hr class="star-dark"/>
+                    <ul class="grid" id="examples">
+                      <li><img src="http://qlip.in/images/YMCA-Realtor-Donation-3.jpg" alt=""/></li>
+                      <li><img src="http://qlip.in/images/webcaballero.jpg" alt=""/></li>
+                      <li><img src="http://qlip.in/images/webmarqas.jpg" alt=""/></li>
+                      <li><img src="http://qlip.in/images/webbrandaxis.jpg" alt=""/></li>
+                      <li><img src="http://qlip.in/images/panacea1.jpg" alt=""/></li>
+                      <li><img src="http://qlip.in/images/webgatomalo.jpg" alt=""/></li>
+                    </ul>
+                </section>
+
+                <section id="contact">
+                    <h1>Contact</h1>
+                    <p>A way to get in touch with me</p>
+                </section>
+
+            </div>
     	</main>
     	<footer>
-    		<p>copyright message</p>
+            <div id="footer-above">
+                <div>
+                    <h3>About this Page</h3>
+                    <p>Made with <i class="glyphicon glyphicon-heart"></i><br><a href="http://github.com/LaoiseFitz">Laoise Fitzpatrick</a></p>
+                </div>
+                <div>
+                    <h3>Around the Web</h3>
+                    <ul>
+                        <li><a class="button button-social" href="https://twitter.com/daytimepyjamas"><i class="fa fa-fw fa-twitter"></i></a></li>
+                        <li><a class="button button-social" href="https://twitter.com/daytimepyjamas"><i class="fa fa-fw fa-twitter"></i></a></li>
+                        <li><a class="button button-social" href="https://twitter.com/daytimepyjamas"><i class="fa fa-fw fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-below">Laoise Fitzpatrick© 
+                <script>document.write(new Date().getFullYear())</script>. All Rights Reversed
+            </div>
     	</footer>
     </body>  
 </html>  
