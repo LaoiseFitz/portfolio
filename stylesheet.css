@@ -2,14 +2,14 @@ body{
   margin:0;
   padding:0;
   color:#666;
-  background:#B39DDB;
+  background:#FF9800;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size:20px;
 }
 h2,h3{
-  color:#888;
+  color:#fff;
   font-weight:bold;
-  text-align:center;
+  text-align:left;
   text-transform:uppercase;
 }
 
@@ -34,10 +34,39 @@ footer #footer-above{
 }
 
 .container {
-	background: #D1C4E9;
+	background: #FFCC80;
 	margin-top: 80px;
 	padding: 20px;
 }
+
+#about {
+    background:#aaa;
+    color:#fff;
+    text-align:right;
+    /*padding:70px 10% 50px;*/
+    -webkit-box-align:end;
+        -ms-flex-align:end;
+            align-items:flex-end;
+    -ms-flex-line-pack:distribute;
+        align-content:space-around;
+  }
+
+#about img{
+      border-radius:50%;
+      margin:20px 0 20px 30px;
+      max-width:80%;
+      height:auto;
+      width:250px;
+    }
+
+#about .intro-text{
+    max-width:775px;
+    text-align:center;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom:30px;
+  }
 
 #portfolio .grid{
 	padding:0;
@@ -61,9 +90,51 @@ footer #footer-above{
 	display:block;
 }
 
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contactinfo{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
 footer{
   color:#fff;
-  background-color:#aaa;
+  background-color:#757575;
   text-align:center;
   /*-webkit-box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);
           box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);*/
@@ -90,7 +161,7 @@ footer h3{
     /*-webkit-box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);
             box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);*/
     padding:25px 0;
-    background-color:#673AB7;
+    background-color:#E65100;
     text-align:center;
   }
 .button{
@@ -108,6 +179,6 @@ footer h3{
 }
 .button:hover{
     border:solid 2px #fff;
-    color:#673AB7;
+    color:#E65100;
     background:#fff;
   }
